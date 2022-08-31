@@ -1,0 +1,9 @@
+{
+  "id": "com.sample.backbuttonhistory",
+  "version": "1.0.0",
+  "type": "web",
+  "main": "index.html",
+  "title": "Back Button Control Using History API",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png"
+}

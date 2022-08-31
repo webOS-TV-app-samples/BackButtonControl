@@ -1,0 +1,10 @@
+{
+  "id": "com.sample.backbuttonkey",
+  "version": "1.0.0",
+  "type": "web",
+  "main": "index.html",
+  "title": "Back Button Control Using Key Code",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "disableBackHistoryAPI": true
+}
