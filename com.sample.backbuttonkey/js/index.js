@@ -90,7 +90,7 @@ var component = (function () {
   var _getDeviceInfo = function () {
     webOS.deviceInfo(function (device) {
       if (device && device.sdkVersion) {
-        var majorVersion = parseInt(sdkVersion.split(".")[0]);
+        var majorVersion = parseInt(device.sdkVersion.split(".")[0]);
         if (!isNaN(majorVersion)) {
           webOSversion = majorVersion;
           _initState();
